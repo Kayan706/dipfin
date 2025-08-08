@@ -24,17 +24,35 @@ body {
     height: 40px;
 }
 
-.calendar{
+.calendar-container{
     max-width: 990px;
     margin: 0 auto;
     display: flex;
 }
 
+.calendar{
+    width: 100%;
+    display: flex;
+}
+
 .day{
     width: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.5;
 }
 
 .red{
     color: red;
+}
+
+
+
+.filmsCard{
+    display: flex;
+}
+
+.filmImg{
+    width: 200px;
+    height: 200px;
 }
 
